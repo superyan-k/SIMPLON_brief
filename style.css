@@ -1,0 +1,14 @@
+body {
+    /*height: 100vh;*/
+    margin: 20 20 20 20;
+    width: 80%;
+    background: #222;
+}
+
+.block {
+    background: #000000d0;
+    color: whitesmoke;
+    padding: 3em;
+    width: 100%;
+    margin: 1em;
+}
