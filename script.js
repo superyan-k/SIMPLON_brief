@@ -1,8 +1,8 @@
 const APIKEY            = "03672715ae6d9de4e91ce446851332ca";
-const CITY_PICK         = "Niort";      // <-- à définir dans un fichier JSON externe
-const UNITS             = "metric";     // <-- à définir dans un fichier JSON externe
-const LANG              = "fr";         // <-- à définir dans un fichier JSON externe
-const TIMING_REFRESH    = 30000;        // <-- à définir dans un fichier JSON externe
+const CITY_PICK         = "Niort";          // <-- à définir dans un fichier JSON externe
+const UNITS             = "metric";         // <-- à définir dans un fichier JSON externe
+const LANG              = "fr";             // <-- à définir dans un fichier JSON externe
+const TIMING_REFRESH    = 600000;           // <-- à définir dans un fichier JSON externe
 
 // Check API pour extraire les infos selon la ville renseigné
 function call_api_city(city) {
